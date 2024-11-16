@@ -28,7 +28,7 @@ public class StockService
         {
             if (product.getStock() < 20)
             { 
-                emailService.sendStockAlert("rasikarajput2122@gmail.com", product.getName(), product.getStock());
+                emailService.sendStockAlert("rasikarajput@gmail.com", product.getName(), product.getStock());
                 System.out.println("Stock alert sent for product: " + product.getName());
             }
         }
